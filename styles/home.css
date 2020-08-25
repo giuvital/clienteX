@@ -1,0 +1,183 @@
+#page-home .content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#page-home{
+    height: 100vh;
+    background: rgb(255,255,255);
+}
+
+#page-home .img-home{
+    position: absolute;
+    bottom: 24px;
+    right: 40px;
+    width: 450px;
+}
+
+#page-home .logo{
+    width: 40px;
+}
+
+#page-home nav{
+   box-shadow: 0 2px 10px -3px rgb(0 0 0 / 20%);
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 40px;
+}
+
+.btn-contact{
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: var(--secundary-color);
+    border: none;
+    box-shadow: 1px 2px 14px -3px rgb(0 0 0 / 20%);
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+.btn-contact:focus{
+    outline: 0;
+}
+
+#page-home header button a{
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-home .btn-contact:hover{
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+#page-home main{
+    max-width: 560px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#page-home main h1{
+    font-size: 50px;
+}
+
+#page-home main p{
+    color: #4B5D68;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+
+#page-home main{
+    display: flex;
+    justify-content: center;
+}
+
+#page-home .content{
+    height: 100%;
+    
+}
+
+#page-home .title .slogan p{
+    margin: 0;
+}
+
+#page-home .title .slogan p:last-child{
+    color: #FF3F62;
+}
+
+#page-home .content main .CTA{
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 2px 14px -3px rgb(0 0 0 / 20%);
+    margin-top: 40px;
+}
+
+#page-home main .CTA:hover{
+    background-color: var(--secundary-color);
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+.overlay{ 
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: .2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.carousel-caption {    
+    position: absolute;
+    right: 15%;
+    bottom: 30% !important;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.carousel-caption > h3 + p{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+} 
+
+.contact-form{
+   height: 80vh; 
+}
+
+.form-container{
+    width: 60%;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-enviar{
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    border: none;
+    box-shadow: 1px 2px 14px -3px rgb(0 0 0 / 20%);
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.form-control{
+    border-radius: 50px !important;
+}
