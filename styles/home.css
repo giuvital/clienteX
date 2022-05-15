@@ -32,7 +32,7 @@
     right: 40px;
 }
 
-.btn-contact{
+.btn-contact {
     color: white;
     width: 150px;
     height: 40px;
@@ -45,6 +45,16 @@
     text-align: center;
     cursor: pointer;
     margin-left: 24px;
+}
+
+.btn-contact a{
+    font-style: normal;
+    color: #fff;
+}
+
+.btn-contact a:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 .btn-contact:focus{
@@ -118,6 +128,17 @@
 
 #page-home main .CTA:hover{
     background-color: var(--secundary-color);
+    
+}
+
+.CTA a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.CTA a:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 .carousel-item{
@@ -176,6 +197,10 @@
     line-height: 40px;
     text-align: center;
     cursor: pointer;
+}
+
+.btn-enviar:hover{
+    background-color: var(--secundary-color);
 }
 
 .form-control{
